@@ -1,0 +1,17 @@
+#+title: Conway's Game of Life
+
+** Usage
+*** Build
+#+BEGIN_SRC bash
+cmake -S . -B ./build
+cmake --build ./build
+#+END_SRC
+*** Run
+#+BEGIN_SRC bash
+./build/conway
+#+END_SRC
+
+** Action Plan
+*** TODO make efficient
+*** TODO dynamic number of cells
+*** IDEA refactor DRY
