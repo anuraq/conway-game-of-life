@@ -12,6 +12,9 @@ cmake --build ./build
 #+END_SRC
 
 ** Action Plan
-*** TODO make efficient
-*** TODO dynamic number of cells
-*** IDEA refactor DRY
+*** [] refactor DRY
+*** [] dynamic number of cells
+*** [] make efficient
+
+** Simulation Window
+[[img/simulating.png]]

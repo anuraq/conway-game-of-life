@@ -119,7 +119,7 @@ int main(int argc, char *argv[]) {
           sf::RectangleShape rec(sf::Vector2f(10.0f, 10.0f));
           rec.setPosition(sf::Vector2f(10.f * j, 10.f * i));
           // rec.setFillColor(sf::Color(150, 0, 50, 255));
-          rec.setFillColor(sf::Color::Cyan);
+          // rec.setFillColor(sf::Color::Cyan);
           window.draw(rec);
         }
       }
